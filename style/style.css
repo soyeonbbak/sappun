@@ -1,0 +1,101 @@
+/* header */
+header { background-color: antiquewhite;}
+header p {background-color: aqua;}
+header p span {}
+header h1 {background-color: aquamarine;}
+header h1 a {}
+header h1 a img {}
+header .user_lnb { background-color: azure;}
+header .user_lnb #lang {background-color: beige;}
+header .user_lnb #lang option {}
+header .login {background-color: bisque;}
+header .login a {background-color: blue;}
+header .login a span {}
+header .user_etc {background-color: blueviolet;}
+header .user_etc ul {background-color: brown;}
+header .user_etc ul li {background-color: burlywood;}
+header .user_etc ul li a {}
+header .user_etc ul li a img {}
+header .gnb {background-color: cadetblue;}
+header .gnb li {background-color: chartreuse;}
+header .gnb li a {}
+/* main */
+main {background-color: chocolate;}
+/* main banner */
+main  .main_bn {background-color: coral;}
+main  .main_bn img {}
+main  .main_bn .bn_wrap {background-color: cornflowerblue;}
+main  .main_bn .bn_wrap ul {background-color: cornsilk;}
+main  .main_bn .bn_wrap ul li {background-color: crimson;}
+main  .main_bn .bn_wrap ul li a {}
+main  .main_bn .bn_wrap ul li a img {}
+/* main item */
+main .item_wrap {background-color: cyan;}
+main .item_wrap h1 {background-color: darkblue;}
+main .item_wrap .item_list {background-color: darkcyan;}
+/* item1 */
+main .item_wrap .item_list .item1 {}
+main .item_wrap .item_list .item1 a {}
+main .item_wrap .item_list .item1 a img{}
+main .item_wrap .item_list .item1 h2 {}
+main .item_wrap .item_list .item1 ul {}
+main .item_wrap .item_list .item1 ul li {}
+main .item_wrap .item_list .item1 ul li em {}
+main .item_wrap .item_list .item1 ul li span {}
+/* item2 */
+main .item_wrap .item_list .item2 {}
+main .item_wrap .item_list .item2 a {}
+main .item_wrap .item_list .item2 a img{}
+main .item_wrap .item_list .item2 h2 {}
+main .item_wrap .item_list .item2 ul {}
+main .item_wrap .item_list .item2 ul li {}
+main .item_wrap .item_list .item2 ul li em {}
+main .item_wrap .item_list .item2 ul li span {}
+/* item3 */
+main .item_wrap .item_list .item3 {}
+main .item_wrap .item_list .item3 a {}
+main .item_wrap .item_list .item3 a img{}
+main .item_wrap .item_list .item3 h2 {}
+main .item_wrap .item_list .item3 ul {}
+main .item_wrap .item_list .item3 ul li {}
+main .item_wrap .item_list .item3 ul li em {}
+main .item_wrap .item_list .item3 ul li span {}
+/* item4 */
+main .item_wrap .item_list .item4 {}
+main .item_wrap .item_list .item4 a {}
+main .item_wrap .item_list .item4 a img{}
+main .item_wrap .item_list .item4 h2 {}
+main .item_wrap .item_list .item4 ul {}
+main .item_wrap .item_list .item4 ul li {}
+main .item_wrap .item_list .item4 ul li em {}
+main .item_wrap .item_list .item4 ul li span {}
+/* item5 */
+main .item_wrap .item_list .item5 {}
+main .item_wrap .item_list .item5 a {}
+main .item_wrap .item_list .item5 a img{}
+main .item_wrap .item_list .item5 h2 {}
+main .item_wrap .item_list .item5 ul {}
+main .item_wrap .item_list .item5 ul li {}
+main .item_wrap .item_list .item5 ul li em {}
+main .item_wrap .item_list .item5 ul li span {}
+/* item6 */
+main .item_wrap .item_list .item6 {}
+main .item_wrap .item_list .item6 a {}
+main .item_wrap .item_list .item6 a img{}
+main .item_wrap .item_list .item6 h2 {}
+main .item_wrap .item_list .item6 ul {}
+main .item_wrap .item_list .item6 ul li {}
+main .item_wrap .item_list .item6 ul li em {}
+main .item_wrap .item_list .item6 ul li span {}
+/* main bottom */
+main .btm_bn {}
+main .btm_bn a {}
+main .btm_bn a img {}
+main .btm_bn a span {}
+/* footer */
+footer {}
+footer .top_inform {}
+footer .top_inform ul {}
+footer .top_inform ul li {}
+footer .top_inform ul li a {}
+footer .address {}
