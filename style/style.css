@@ -4,35 +4,37 @@ header {
     width: 1300px; margin:0 auto;
 }
 header p {
-    background-color: aqua;
-    text-align: center;
+    background-color: #aaa; height: 40px;
+    text-align: center; 
 }
-header p span {}
-header h1 {background-color: aquamarine; text-align: center;}
-header h1 a {}
-header h1 a img {width: 130px; height: 19px;}
-header .user_lnb {
+header p span {font-weight: 700; line-height: 40px;}
+header .h_top {height: 100px;}
+header .h_top h1 {
+    background-color: aquamarine;
+    text-align: center; line-height: 100px;
+}
+header .h_top h1 a {}
+header .h_top h1 a img {width: 130px; height: 19px;}
+header .h_top .user_lnb {
     background-color: azure;
     float: right;
     }
-header .user_lnb #lang {
-    background-color: beige;
-}
-header .user_lnb #lang option {}
-header .login {background-color: bisque;}
-header .login a {
+header .h_top .login {
+    float:right;
+    background-color: bisque;}
+header .h_top .login a {
     background-color: blue;
     float: left;
 }
-header .login a span {}
-header .user_etc {background-color: blueviolet;}
-header .user_etc ul {background-color: brown;}
-header .user_etc ul li {
+header .h_top .login a span {}
+header .h_top .user_etc {background-color: blueviolet; float: right;}
+header .h_top .user_etc ul {background-color: brown;}
+header .h_top .user_etc ul li {
     background-color: burlywood;
     float: left;
 }
-header .user_etc ul li a {}
-header .user_etc ul li a img {}
+header .h_top .user_etc ul li a {}
+header .h_top .user_etc ul li a img {}
 header .gnb {
     background-color: cadetblue;
     text-align: left;
@@ -42,18 +44,32 @@ header .gnb li a {}
 /* main */
 main {
     background-color: chocolate;
-    width: 1300px; margin:0 auto;
+    margin:0 auto; 
 }
 /* main banner */
-main  .main_bn {background-color: coral;}
-main  .main_bn img {}
-main  .main_bn .bn_wrap {background-color: cornflowerblue;}
+main  .main_bn {
+    background-color: coral;
+}
+main  .main_bn h2 {
+
+}
+main  .main_bn h2 img {}
+main  .main_bn .bn_wrap {
+    background-color: cornflowerblue;
+    width: 1300px;
+}
 main  .main_bn .bn_wrap ul {background-color: cornsilk;}
-main  .main_bn .bn_wrap ul li {background-color: crimson;}
+main  .main_bn .bn_wrap ul li {
+    background-color: crimson;
+    width: 416px; height: 350px;
+    float: left; 
+}
 main  .main_bn .bn_wrap ul li a {}
-main  .main_bn .bn_wrap ul li a img {}
+main  .main_bn .bn_wrap ul li a img {width: 100%;}
 /* main item */
-main .item_wrap {background-color: cyan;}
+main .item_wrap {
+    background-color: cyan; width: 1300px;
+}
 main .item_wrap h1 {background-color: darkblue; text-align: center;}
 main .item_wrap .item_list {background-color: darkcyan;}
 /* item1 */
@@ -92,16 +108,16 @@ main .item_wrap .item_list .item4 a {background-color: floralwhite;}
 main .item_wrap .item_list .item4 a img{}
 main .item_wrap .item_list .item4 h2 {background-color: forestgreen;}
 main .item_wrap .item_list .item4 ul {background-color: fuchsia;}
-main .item_wrap .item_list .item4 ul li {}
+main .item_wrap .item_list .item4 ul li {background-color: mediumspringgreen;}
 main .item_wrap .item_list .item4 ul li em {}
 main .item_wrap .item_list .item4 ul li span {}
 /* item5 */
 main .item_wrap .item_list .item5 {background-color: gainsboro;}
 main .item_wrap .item_list .item5 a {background-color: gold;}
 main .item_wrap .item_list .item5 a img{}
-main .item_wrap .item_list .item5 h2 {}
-main .item_wrap .item_list .item5 ul {}
-main .item_wrap .item_list .item5 ul li {}
+main .item_wrap .item_list .item5 h2 {background-color: mediumaquamarine;}
+main .item_wrap .item_list .item5 ul {background-color: mediumblue;}
+main .item_wrap .item_list .item5 ul li {background-color: mediumorchid;}
 main .item_wrap .item_list .item5 ul li em {}
 main .item_wrap .item_list .item5 ul li span {}
 /* item6 */
@@ -109,8 +125,8 @@ main .item_wrap .item_list .item6 {background-color: gray;}
 main .item_wrap .item_list .item6 a {background-color: green;}
 main .item_wrap .item_list .item6 a img{}
 main .item_wrap .item_list .item6 h2 {background-color: lawngreen;}
-main .item_wrap .item_list .item6 ul {}
-main .item_wrap .item_list .item6 ul li {}
+main .item_wrap .item_list .item6 ul {background-color: magenta;}
+main .item_wrap .item_list .item6 ul li {background-color: maroon;}
 main .item_wrap .item_list .item6 ul li em {}
 main .item_wrap .item_list .item6 ul li span {}
 /* main bottom */
@@ -119,9 +135,18 @@ main .btm_bn a {background-color: grey;}
 main .btm_bn a img {}
 main .btm_bn a span {}
 /* footer */
-footer {background-color: honeydew;}
+footer {
+    background-color: honeydew; 
+    text-align: left; margin:0 auto; width: 1300px;
+}
 footer .top_inform {background-color: hotpink;}
 footer .top_inform ul {background-color: indianred;}
-footer .top_inform ul li {background-color: indigo;}
+footer .top_inform ul li {background-color: indigo;
+    float: left; margin-right: 20px;
+}
 footer .top_inform ul li a {background-color: ivory;}
-footer .address {background-color: khaki;}
+footer address {
+    background-color: powderblue;
+    line-height: 23px; letter-spacing: -0.02%;
+
+}
