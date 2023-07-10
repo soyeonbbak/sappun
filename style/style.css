@@ -41,6 +41,9 @@ header .gnb {
 }
 header .gnb li {background-color: chartreuse; float: left;}
 header .gnb li a {}
+header .left_icon {}
+header .left_icon a { position: pixed; left: 0;}
+header .left_icon a img {}
 /* main */
 main {
     background-color: chocolate;
@@ -55,12 +58,10 @@ main  .main_bn h2 {
 }
 main  .main_bn h2 img {}
 main  .main_bn .bn_wrap {
-    background-color: cornflowerblue;
     width: 1300px;
 }
-main  .main_bn .bn_wrap ul {background-color: cornsilk;}
+main  .main_bn .bn_wrap ul {}
 main  .main_bn .bn_wrap ul li {
-    background-color: crimson;
     width: 416px; height: 350px;
     float: left; 
 }
@@ -70,74 +71,88 @@ main  .main_bn .bn_wrap ul li a img {width: 100%;}
 main .item_wrap {
     background-color: cyan; width: 1300px;
 }
-main .item_wrap h1 {background-color: darkblue; text-align: center;}
+main .item_wrap h1 {
+    font-size: 1.25em; font-weight: 600;
+    text-align: center;
+    padding:97px 0;
+}
 main .item_wrap .item_list {background-color: darkcyan;}
 /* item1 */
 main .item_wrap .item_list div {
     width:33%; float: left;
 }
-main .item_wrap .item_list .item1 {background-color: darkgray;}
+/* 메인 아이템  */
+main .item_wrap .item_list div a {font-size: ;}
+main .item_wrap .item_list div ul li em {
+    font-size: 1.25em; font-weight: 600;
+}
+main .item_wrap .item_list div ul li:nth-child(3) {
+    color:#ff7f50;
+}
+/*메인아이템 */
+main .item_wrap .item_list .item1 {}
 main .item_wrap .item_list .item1 a {background-color: darkgreen;}
 main .item_wrap .item_list .item1 a img{}
 main .item_wrap .item_list .item1 h2 {background-color: darkkhaki;}
-main .item_wrap .item_list .item1 ul {background-color: darkmagenta;}
+main .item_wrap .item_list .item1 ul {}
 main .item_wrap .item_list .item1 ul li {}
 main .item_wrap .item_list .item1 ul li em {background-color: darkolivegreen;}
 main .item_wrap .item_list .item1 ul li span {background-color: darkorange;}
 /* item2 */
-main .item_wrap .item_list .item2 {background-color: darkorchid;}
-main .item_wrap .item_list .item2 a {background-color: darkred;}
+main .item_wrap .item_list .item2 {}
+main .item_wrap .item_list .item2 a {}
 main .item_wrap .item_list .item2 a img{}
 main .item_wrap .item_list .item2 h2 {background-color: darksalmon;}
-main .item_wrap .item_list .item2 ul {background-color: darkseagreen;}
+main .item_wrap .item_list .item2 ul {}
 main .item_wrap .item_list .item2 ul li {}
 main .item_wrap .item_list .item2 ul li em {background-color: darkslateblue;}
 main .item_wrap .item_list .item2 ul li span {background-color: darkslategray;}
 /* item3 */
-main .item_wrap .item_list .item3 {background-color: darkturquoise;}
+main .item_wrap .item_list .item3 {}
 main .item_wrap .item_list .item3 a {background-color: darkviolet;}
 main .item_wrap .item_list .item3 a img{}
 main .item_wrap .item_list .item3 h2 {background-color: deeppink;}
-main .item_wrap .item_list .item3 ul {background-color: deepskyblue;}
+main .item_wrap .item_list .item3 ul {}
 main .item_wrap .item_list .item3 ul li {background-color: dodgerblue;}
 main .item_wrap .item_list .item3 ul li em {}
 main .item_wrap .item_list .item3 ul li span {}
 /* item4 */
-main .item_wrap .item_list .item4 {background-color: firebrick;}
+main .item_wrap .item_list .item4 {}
 main .item_wrap .item_list .item4 a {background-color: floralwhite;}
 main .item_wrap .item_list .item4 a img{}
 main .item_wrap .item_list .item4 h2 {background-color: forestgreen;}
-main .item_wrap .item_list .item4 ul {background-color: fuchsia;}
+main .item_wrap .item_list .item4 ul {}
 main .item_wrap .item_list .item4 ul li {background-color: mediumspringgreen;}
 main .item_wrap .item_list .item4 ul li em {}
 main .item_wrap .item_list .item4 ul li span {}
 /* item5 */
-main .item_wrap .item_list .item5 {background-color: gainsboro;}
+main .item_wrap .item_list .item5 {}
 main .item_wrap .item_list .item5 a {background-color: gold;}
 main .item_wrap .item_list .item5 a img{}
 main .item_wrap .item_list .item5 h2 {background-color: mediumaquamarine;}
-main .item_wrap .item_list .item5 ul {background-color: mediumblue;}
+main .item_wrap .item_list .item5 ul {}
 main .item_wrap .item_list .item5 ul li {background-color: mediumorchid;}
 main .item_wrap .item_list .item5 ul li em {}
 main .item_wrap .item_list .item5 ul li span {}
 /* item6 */
-main .item_wrap .item_list .item6 {background-color: gray;}
+main .item_wrap .item_list .item6 {}
 main .item_wrap .item_list .item6 a {background-color: green;}
 main .item_wrap .item_list .item6 a img{}
 main .item_wrap .item_list .item6 h2 {background-color: lawngreen;}
-main .item_wrap .item_list .item6 ul {background-color: magenta;}
+main .item_wrap .item_list .item6 ul {}
 main .item_wrap .item_list .item6 ul li {background-color: maroon;}
 main .item_wrap .item_list .item6 ul li em {}
 main .item_wrap .item_list .item6 ul li span {}
 /* main bottom */
 main .btm_bn {background-color: greenyellow;}
-main .btm_bn a {background-color: grey;}
+main .btm_bn a {}
 main .btm_bn a img {}
 main .btm_bn a span {}
 /* footer */
 footer {
     background-color: honeydew; 
     text-align: left; margin:0 auto; width: 1300px;
+    
 }
 footer .top_inform {background-color: hotpink;}
 footer .top_inform ul {background-color: indianred;}
