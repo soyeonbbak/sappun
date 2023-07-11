@@ -1,8 +1,6 @@
+header, main .item_wrap,main .main_bn .bn_wrap, footer {width: 1300px; margin:0 auto;}
 /* header */
-header { 
-    background-color: antiquewhite;
-    width: 1300px; margin:0 auto;
-}
+header {}
 header p {
     background-color: #aaa; height: 40px;
     text-align: center; 
@@ -10,25 +8,21 @@ header p {
 header p span {font-weight: 700; line-height: 40px;}
 header .h_top {height: 100px;}
 header .h_top h1 {
-    background-color: aquamarine;
     text-align: center; line-height: 100px;
 }
 header .h_top h1 a {}
 header .h_top h1 a img {width: 130px; height: 19px;}
 header .h_top .user_lnb {
-    background-color: azure;
     float: right;
     }
 header .h_top .login {
-    float:right;
-    background-color: bisque;}
+    float:right;}
 header .h_top .login a {
-    background-color: blue;
     float: left;
 }
 header .h_top .login a span {}
-header .h_top .user_etc {background-color: blueviolet; float: right;}
-header .h_top .user_etc ul {background-color: brown;}
+header .h_top .user_etc { float: right;}
+header .h_top .user_etc ul {}
 header .h_top .user_etc ul li {
     background-color: burlywood;
     float: left;
@@ -36,132 +30,163 @@ header .h_top .user_etc ul li {
 header .h_top .user_etc ul li a {}
 header .h_top .user_etc ul li a img {}
 header .gnb {
-    background-color: cadetblue;
-    text-align: left;
+    text-align: center;
 }
-header .gnb li {background-color: chartreuse; float: left;}
+header .gnb li {
+    float: left; margin: 0 15px;
+}
 header .gnb li a {}
-header .left_icon {}
-header .left_icon a { position: pixed; left: 0;}
+header .left_icon { position: pixed; right: 0;}
+header .left_icon a {}
 header .left_icon a img {}
 /* main */
 main {
-    background-color: chocolate;
     margin:0 auto; 
 }
 /* main banner */
-main  .main_bn {
-    background-color: coral;
-}
+main  .main_bn {}
 main  .main_bn h2 {
-
+    margin-top: 40px;
 }
 main  .main_bn h2 img {}
 main  .main_bn .bn_wrap {
-    width: 1300px;
+    margin-top: 144px;
 }
 main  .main_bn .bn_wrap ul {}
 main  .main_bn .bn_wrap ul li {
     width: 416px; height: 350px;
     float: left; 
 }
+main  .main_bn .bn_wrap ul li:nth-child(2){margin: 0 26px;}
 main  .main_bn .bn_wrap ul li a {}
 main  .main_bn .bn_wrap ul li a img {width: 100%;}
 /* main item */
 main .item_wrap {
-    background-color: cyan; width: 1300px;
+    overflow: hidden; 
 }
 main .item_wrap h1 {
     font-size: 1.25em; font-weight: 600;
     text-align: center;
     padding:97px 0;
 }
-main .item_wrap .item_list {background-color: darkcyan;}
+main .item_wrap .item_list {}
+/* item group */
+main .item_wrap .item_list div h2{
+    padding:10px 0 20px 0;
+}
+main .item_wrap .item_list div ul li:nth-child(1){
+    border-bottom: 1px solid #000;
+    padding-bottom: 30px;
+}
+main .item_wrap .item_list div ul li:nth-child(2){
+    float: left; padding-top: 12px;
+}
+main .item_wrap .item_list div ul li:nth-child(3){
+    color:#ff7f50; text-align: right;
+    padding-top:12px;
+}
+main .item_wrap .item_list div ul li:nth-child(4){
+    border:1px solid #ffe4c4; color: #ffffff;
+    background-color: #ffe4c4; float: left;
+    margin:10px 6px 0 0; padding: 5px 5px;
+}
+main .item_wrap .item_list div ul li:nth-child(5){
+    border:1px solid #000080; color: #ffffff;
+    background-color: #000080; margin-top: 10px;
+    float: left; padding: 5px 5px;
+}
+
 /* item1 */
+main .item_wrap .item_list div:nth-child(2) {margin: 0 17px;}
+main .item_wrap .item_list div:nth-child(5) {margin: 0 17px;}
 main .item_wrap .item_list div {
-    width:33%; float: left;
+    float: left; 
 }
 /* 메인 아이템  */
-main .item_wrap .item_list div a {font-size: ;}
+main .item_wrap .item_list div a {}
 main .item_wrap .item_list div ul li em {
     font-size: 1.25em; font-weight: 600;
 }
-main .item_wrap .item_list div ul li:nth-child(3) {
-    color:#ff7f50;
-}
 /*메인아이템 */
 main .item_wrap .item_list .item1 {}
-main .item_wrap .item_list .item1 a {background-color: darkgreen;}
+main .item_wrap .item_list .item1 a {}
 main .item_wrap .item_list .item1 a img{}
-main .item_wrap .item_list .item1 h2 {background-color: darkkhaki;}
+main .item_wrap .item_list .item1 h2 {}
 main .item_wrap .item_list .item1 ul {}
 main .item_wrap .item_list .item1 ul li {}
-main .item_wrap .item_list .item1 ul li em {background-color: darkolivegreen;}
-main .item_wrap .item_list .item1 ul li span {background-color: darkorange;}
+main .item_wrap .item_list .item1 ul li em {}
+main .item_wrap .item_list .item1 ul li span {}
 /* item2 */
 main .item_wrap .item_list .item2 {}
 main .item_wrap .item_list .item2 a {}
 main .item_wrap .item_list .item2 a img{}
-main .item_wrap .item_list .item2 h2 {background-color: darksalmon;}
+main .item_wrap .item_list .item2 h2 {}
 main .item_wrap .item_list .item2 ul {}
 main .item_wrap .item_list .item2 ul li {}
-main .item_wrap .item_list .item2 ul li em {background-color: darkslateblue;}
-main .item_wrap .item_list .item2 ul li span {background-color: darkslategray;}
+main .item_wrap .item_list .item2 ul li em {}
+main .item_wrap .item_list .item2 ul li span {}
 /* item3 */
 main .item_wrap .item_list .item3 {}
-main .item_wrap .item_list .item3 a {background-color: darkviolet;}
+main .item_wrap .item_list .item3 a {}
 main .item_wrap .item_list .item3 a img{}
-main .item_wrap .item_list .item3 h2 {background-color: deeppink;}
+main .item_wrap .item_list .item3 h2 {}
 main .item_wrap .item_list .item3 ul {}
-main .item_wrap .item_list .item3 ul li {background-color: dodgerblue;}
+main .item_wrap .item_list .item3 ul li {}
 main .item_wrap .item_list .item3 ul li em {}
 main .item_wrap .item_list .item3 ul li span {}
 /* item4 */
 main .item_wrap .item_list .item4 {}
-main .item_wrap .item_list .item4 a {background-color: floralwhite;}
+main .item_wrap .item_list .item4 a {}
 main .item_wrap .item_list .item4 a img{}
-main .item_wrap .item_list .item4 h2 {background-color: forestgreen;}
+main .item_wrap .item_list .item4 h2 {}
 main .item_wrap .item_list .item4 ul {}
-main .item_wrap .item_list .item4 ul li {background-color: mediumspringgreen;}
+main .item_wrap .item_list .item4 ul li {}
 main .item_wrap .item_list .item4 ul li em {}
 main .item_wrap .item_list .item4 ul li span {}
 /* item5 */
 main .item_wrap .item_list .item5 {}
-main .item_wrap .item_list .item5 a {background-color: gold;}
+main .item_wrap .item_list .item5 a {}
 main .item_wrap .item_list .item5 a img{}
-main .item_wrap .item_list .item5 h2 {background-color: mediumaquamarine;}
+main .item_wrap .item_list .item5 h2 {}
 main .item_wrap .item_list .item5 ul {}
-main .item_wrap .item_list .item5 ul li {background-color: mediumorchid;}
+main .item_wrap .item_list .item5 ul li {}
 main .item_wrap .item_list .item5 ul li em {}
 main .item_wrap .item_list .item5 ul li span {}
 /* item6 */
 main .item_wrap .item_list .item6 {}
-main .item_wrap .item_list .item6 a {background-color: green;}
+main .item_wrap .item_list .item6 a {}
 main .item_wrap .item_list .item6 a img{}
-main .item_wrap .item_list .item6 h2 {background-color: lawngreen;}
+main .item_wrap .item_list .item6 h2 {}
 main .item_wrap .item_list .item6 ul {}
-main .item_wrap .item_list .item6 ul li {background-color: maroon;}
+main .item_wrap .item_list .item6 ul li {}
 main .item_wrap .item_list .item6 ul li em {}
 main .item_wrap .item_list .item6 ul li span {}
 /* main bottom */
-main .btm_bn {background-color: greenyellow;}
-main .btm_bn a {}
-main .btm_bn a img {}
-main .btm_bn a span {}
+main .btm_bn {padding:100px 0;}
+main .btm_bn a { }
+main .btm_bn a img {
+
+}
+main .btm_bn a span:nth-child(1) {
+    text-align: center;
+}
+main .btm_bn a span:nth-child(2) {}
 /* footer */
 footer {
-    background-color: honeydew; 
-    text-align: left; margin:0 auto; width: 1300px;
-    
+    text-align: left;
+/*     overflow: hidden; */
 }
-footer .top_inform {background-color: hotpink;}
-footer .top_inform ul {background-color: indianred;}
-footer .top_inform ul li {background-color: indigo;
+footer .top_inform {}
+footer .top_inform ul {
+    border-top:1px solid #000 ;
+    padding-top:50px;
+}
+footer .top_inform ul li {
     float: left; margin-right: 20px;
 }
-footer .top_inform ul li a {background-color: ivory;}
+footer .top_inform ul li a {color: #ccc;}
+footer .top_inform ul li:nth-child(2){color: #000;}
 footer address {
-    background-color: powderblue;
     line-height: 23px; letter-spacing: -0.02%;
-
+    float: left; line-height: 23px;
 }
